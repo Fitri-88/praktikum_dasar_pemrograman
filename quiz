@@ -1,0 +1,24 @@
+def tampilkan(nomor, teks_soal):
+    print(f"soal {nomor}:")
+    print(teks_soal)
+    print("pilih jawaban A, B, C atau D")
+    tampilkan_soal(1, "Apa yang dimaksud dengan sistem informasi?")
+
+    def tampilkan_soal(nomor, teks_soal):
+        print(f"soal {nomor}:")
+        print(teks_soal)
+        print("pilih jawaban A, B, C, atau D")
+
+        def periksa_jawaban(jawaban_mahasiswa, kunci_jawaban):
+            return True
+        else:
+        return False
+
+    def hitung_skor(jumlah_benar, jumlah_soal):
+        skor = (jumlah_benar / jumlah_soal) * 100
+        return skor
+
+    def main()
+        def hitung_skor(jumlah_benar, jumlah_soal):
+            skor = (jumlah_benar / jumlah_soal) * 100
+            return skor
